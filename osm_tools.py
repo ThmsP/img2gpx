@@ -441,7 +441,7 @@ def title_element(title_text, stats, bilan):
         legend += f"<div style='display:flex; align-items:center;'><div style='background:{color};width:20px;height:20px;margin-right:5px;'></div>{label}</div>"
 
 
-    title_html = f"""
+    title_html = """
         <div style="z-index:999;position: fixed; top: 1rem; right: 1rem; margin:0; padding:0.5rem; background-color: rgba(255,255,255,1); border-radius: 5px;">
             <h3 style="font-size:1.5rem">{title_text}</h3>{bilan.replace("\n","<br/>")}<br/><br/>{legend}
         </div>

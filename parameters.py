@@ -17,7 +17,8 @@ img_trace = os.path.join(output_folder, "_trace.png")
 video_file = os.path.join(output_folder, "_video.mp4")
 logs_file = os.path.join(script_dir, "_logs.txt")
 
-gpx_file="route-727.gpx"
+#gpx_file="route-727.gpx"
+gpx_file="Montbard-Langres_200km.gpx"
 #gpx_file="route-balaruc.gpx"
 #gpx_file="route-tourmagne.gpx"
 gpx_path = os.path.join(assets_dir, gpx_file)
